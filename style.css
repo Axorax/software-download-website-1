@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    color: white;
+}
+
+/** Header Logo and Text **/
+#header-name-xreont{
+    font-family: 'Pacifico', cursive!important;
+    color: #D7D5D5;
+    display: inline;
+    cursor: pointer;
+    font-size: 2em;
+}
+#header-name-xreont:hover{
+    color: white;
+}
+#header-name-xreont-hyperlink{
+    text-decoration: none;
+}
+#header-logo{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+/** Other Contents **/
+
+#support-us{
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    bottom: 1.5%;
+    right: 1%;
+    z-index: 99999;
+}
+
+.gth{
+    color: red;
+}
+#http{
+    border-top: 1px solid red;
+    border-bottom: none;
+    margin-left: 2%;
+    margin-right: 60%;
+    border-left: none;
+    border-right: none;
+}
+
+#directory{
+    margin-left: 2%;
+}
+
+::-moz-selection {
+    color: black;
+    background: #A3FF55;
+  }
+  ::selection {
+    color: black;
+    background: #A3FF55;
+  }
+
+  #footer{
+      text-align: center;
+  }
+
+  #footer-un{
+      position: fixed;
+      bottom: 1%;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  #bgm{
+      cursor: pointer;
+      font-size: 20px;
+      text-align: left;
+      width: 300px;
+      height:60px;
+      border: none;
+      background-color: #F5F5F5;
+      font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  #bgm:hover{
+    background-color: #D7D7D7;
+  }
+
+  #fmg{
+      padding-left: 5%;
+  }
+
+  #jgm{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    width: 300px;
+    height:60px;
+    border: none;
+    background-color: #A3FF55;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+
+  .ptm{
+      font-weight: bold;
+  }
+  .form-submit-button{
+      cursor: pointer;
+      padding: .7rem 6.8rem;
+      background: red;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      font-size: 18px;
+  }
+
+  .form-submit-button:hover{
+      background: rgb(209, 0, 0);
+  }
+
+  .upload-file-div{
+      background: rgba(0, 0, 0, 0.247);
+      padding: 10px;
+      padding-left: 0;
+      margin-top: 18px;
+      margin-bottom: -18px;
+  }
+
+  .upload-file-div p{
+      margin-top: 0;
+  }
+
+  .browse-btn{
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 15px;
+      font-weight:bold;
+      border: none;
+      border-radius: 5px;
+      background-color: red;
+      color: white;
+      width: 110px;
+      height: 50px;
+      border-bottom: 6px solid #AB0000;
+      cursor: pointer;
+  }
+
+  #browse-btn-div{
+      text-align: center;
+  }
+  
+  .search-bar{
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: bold;
+      width: 50%;
+      height: 50px;
+      padding-left: 10px;
+      font-size: 20px;
+  }
+
+  .search-bar:focus{
+      outline: none;
+  }
+  
+  .search-div{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 50px;
+      background: none;
+  }
+
+  .software-category-title{
+      font-size: 30px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid red;
+      margin-left: 2%;
+      margin-right: 60%;
+      border-left: none;
+      border-right: none;
+  }
+
+  #software-list{
+      text-align: center;
+  }
+
+  input, textarea{
+    padding: 5px;
+    resize: none;
+    width: 17rem;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+  }
+
+  input{
+      height: 1.7rem;
+  }
+
+  input:focus, textarea:focus{
+      outline: none;
+  }
+
+  form{
+    background-color: #2B2B2B;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .soft{
+    margin-bottom: 20px;
+    margin-left: 2%;
+    width: 165px;
+    height: 240px;
+  }
+
+  .soft:hover{
+    -webkit-filter: blur(.7px);
+    filter: blur(.7px);
+  }
+
+  .popular-software img{
+      margin-left: 2%;
+      height: 150px;
+      width: 280px;
+      margin-bottom: 20px;
+  }
+
+/** Navigation Bar **/
+
+#nav-bar{
+    margin-left: 2%;
+    visibility: visible;
+    display: block;
+}
+#nav-buttons{
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FF2727;
+    color: #D7D5D5;
+    height: 40px;
+    width: 80px;
+    transition: background 0.3s ease-out;
+}
+#nav-buttons:hover{
+    color: white;
+    background-color: #D90000;
+}
+#navbar-pc-br{
+    display: block;
+}
+
+#mobile-navbar{
+    display: none;
+    visibility: hidden;
+}
+#mobile-nav-buttons{
+    background-color: transparent;
+    color: #D7D5D5;
+    border: none;
+    height: 30px;
+    width: 100%;
+}
+#mobile-nav-buttons:hover{
+    color: white;
+}
+.hamburger-togle{
+    display: none;
+    visibility: hidden;
+}
+.hamburger-on{
+    display: block;
+    visibility: visible;
+}
+#mobile-hamburger{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: white;
+    margin-right: 2%;
+    font-size: 20px;
+    float: right;
+}
+@media screen and (max-width: 426px) {
+    #nav-bar{
+        display: none;
+        visibility: hidden;
+    }
+    #mobile-navbar{
+        display: inline;
+        visibility: visible;
+    }
+    #navbar-pc-br{
+        display: none;
+    }
+    .software-categories{
+        text-align: center;
+    }
+    .popular-software{
+        text-align: center;
+    }
+    .software-category-title{
+        margin-right: 15%;
+    }
+}
